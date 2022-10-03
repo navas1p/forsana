@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap');
 
 *{
   box-sizing: border-box;
@@ -25,14 +26,12 @@ header{
 
 header a{
   text-decoration: none; 
-  margin-right: 64px;
+  margin-right: 50px;
   font-size: 14px;
   letter-spacing: 1px; 
   color: rgba(255,255,255,0.719);
   font-family: tahoma;  
 }
-
-
 
 .banner-container{
   display: flex;
@@ -51,32 +50,48 @@ header a{
   text-align: center;
   font-family: 'Dancing Script', cursive;
   padding:10px;
-  margin: 40px 0 40px 0;
+  margin: 10px 0 40px 0;
   font-size: 50px;
-  
+  color: rgb(72, 131, 140) ;
 }
 
 .model{
-  margin-bottom: -55px;
+  margin-bottom: -65px;
+  margin-top: 15px;
 }
 
 .name h1 {
   text-align: center;
+  margin: -20,0,10px,0;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(195, 224, 247);
+}
+
+/* .name h1 {
+  text-align: center;
   margin: 0;
   font-size: 50px;
   color: rgb(195, 224, 247);
-}
+} */
 
 .name h3 {
   text-align: center;
   margin: 0 0 60px;
-  color: rgb(195, 224, 247);
+  color: rgb(195, 224, 247); 
+  font-family: 'Inter Tight', sans-serif;
+}
+.name a{
+  text-decoration: none;
+  color: rgb(195, 224, 247); 
+  font-family: 'Inter Tight', sans-serif;
 }
 
 .name img{  
-  max-width:70%;
+  max-width:60%;
   display: block;
-  margin: 0 auto;
+ margin-left: 50px;
+  
 }
 
 .mixed-container{
@@ -95,9 +110,14 @@ header a{
 .text{
   text-align: justify;
   max-width: 50%;
+  color: rgb(72, 131, 140) ; 
+  font-family: 'Inter Tight', sans-serif;
 }
+
 .text h1{
   text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
 }
 
 .wave-header {
@@ -107,9 +127,8 @@ header a{
   color:white;
   /* display: flex; */
   width: 100%;
-  margin-top: -55px;
+  margin-top: -65px;
 }
-
 
 .inner-header {
   height:105vh;
@@ -132,7 +151,6 @@ header a{
   min-height:100px;
   max-height:150px;
 }
-
 
 /* Animation */
 
@@ -173,19 +191,12 @@ header a{
     height:30vh;
   }
   .model{
-    margin-bottom: -10px;
+    margin-bottom: -5px;
   }
   .text{    
     max-width: 95%;
   }
   .text h1{
     font-size: 25px;
-  }
-
-  
-
-
-  
+  }  
 }
-
-
